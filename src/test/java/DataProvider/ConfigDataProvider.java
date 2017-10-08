@@ -10,7 +10,7 @@ public class ConfigDataProvider {
 	
 	public ConfigDataProvider() {
 		try {
-			File src = new File ("D:\\Workspace\\framework.7oct.etlhive\\Confuguration\\Config.properties");
+			File src = new File ("C:\\Users\\JUHI\\git\\DemoFramework_7Oct\\Confuguration\\Config.properties");
 			FileInputStream fis = new FileInputStream(src);
              pro = new Properties();
 			pro.load(fis);
